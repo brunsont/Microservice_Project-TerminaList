@@ -1,0 +1,3 @@
+                    Welcome to TerminaList  
+                    Simplify your shopping. 
+Create, organize, and track your shopping lists with ease, right from your terminal!

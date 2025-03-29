@@ -1,0 +1,20 @@
+How to Add an item.
+1. When on the main menu, use the <up> and <down> keys to select the "Add Item" option 
+2. Then follow the prompts to input the Item Name, Quantity and select the Priority. 
+3. To submit, Press [Enter] or input [N] to cancel
+4. You can enter [CTRL+C] at any time to cancel and return to your list.
+
+How to Edit an item.
+1. When on the main menu, use the <up> and <down> keys to select the "Edit Item" option. 
+2. Then, use the <up> and <down> keys to select the item you'd like to Edit.
+2a. Select [Enter Manually], if you prefer to type in the item's name. 
+	The manual search option features auto-complete for your convenience. Reminder: The manual search is case-sensitive
+3. Once the item is selected, follow the prompts to Edit the item as needed. 
+
+How to Delete an item.
+1. When on the main menu, use the <up> and <down> keys to select the “Delete Item" option. 
+2. Then, use the <up> and <down> keys to select the item you'd like to Delete.
+2a. Select [Enter Manually], if you prefer to type in the item's name. 
+	The manual search option features auto-complete functionality for your convenience. 
+	Reminder: The manual search is case-sensitive
+3. Once the item is selected, input [Y] to confirm or [Enter] to cancel. Reminder: This action cannot be undone.

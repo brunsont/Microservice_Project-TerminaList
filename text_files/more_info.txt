@@ -1,0 +1,14 @@
+FAQ
+What does Priority mean?
+We recommend using the Priority value to indicate the urgency of a list item. 
+For example, a grocery item with High priority may be out of stock and need immediate purchase. 
+While a grocery item with low priority may be low on stock and should only be purchased on sale.
+
+Are there plans to add more features?
+Yes! We have big plans for this app. Stay tuned!
+
+Credits
+Developed by Theodore Brunson © 2025
+
+We want to hear what you think, contact us
+brunsont@oregonstate.edu
