@@ -11,14 +11,14 @@ import ports
 def load_list():
     """Loads the list from a local JSON file. """
     try:
-        with open("../microservice-a/shopping_lists.json", "r") as f:
+        with open("../microservice_a/shopping_lists.json", "r") as f:
             return json.load(f)
     except FileNotFoundError:
         return {}   # Returns an empty dictionary if the file does not exist
     
 def save_list(shoppingList):
     """Saves the list to a local JSON file"""
-    with open("../microservice-a/shopping_lists.json", "w") as f:
+    with open("../microservice_a/shopping_lists.json", "w") as f:
         json.dump(shoppingList, f, indent=4)
 
 def count_lists(shoppingLists):
@@ -420,7 +420,7 @@ def export_to_text(listName):
     # Wait for response
     message = socket.recv()
     if message.decode('utf-8') == "JSON exported successfully.":
-        fileLocation = os.path.abspath(f"../microservice-a/text_files/{listName}.txt")
+        fileLocation = os.path.abspath(f"../microservice_a/text_files/{listName}.txt")
         print("Your list has been successfully exported to a text file.")
         print(f"The file is located here: \n{fileLocation}")
         questionary.press_any_key_to_continue().ask()
